@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html prefix="og: https://ogp.me/ns#">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Solve hundred sudoku puzzles!">
+    <meta property="og:title" content="Sudoku">
+    <meta property="og:description" content="Application to generate and solve sudoku">
+    <meta property="og:image" content="https://sudoku.com/com">
+    <title>Sudoku</title>
+    <link rel="icon" href="faico.ico">
+</head>
+
+<body>
+
+<header>
+    <h1>Sudoku</h1>
+    <nav>
+        <ul>
+            <li><a href="#login">Login</a></li>
+            <li><a href="#registration">Registration</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#download">Download</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="login">
+        <h2>Login</h2>
+        <form action="/login" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <input type="submit" value="Login">
+            <input type="reset" value="Clear">
+        </form>
+    </section>
+
+    <section id="registration">
+        <h2>Registration</h2>
+        <form action="/register" method="post">
+            <label for="Username">Username:</label>
+            <input type="text" id="UsernameR" name="Username" required>
+
+            <label for="Password">Password:</label>
+            <input type="password" id="PasswordR" name="Password" required>
+
+            <label for="newComments">Additional Comments:</label>
+            <textarea id="newComments" name="newComments" rows="4" cols="50"></textarea>
+
+            <label for="newSubscribe">Subscribe to newsletter:</label>
+            <input type="checkbox" id="newSubscribe" name="newSubscribe">
+
+            <label>Choose a plan:</label>
+            <input type="radio" id="basic" name="plan" value="basic">
+            <label for="basic">Basic</label>
+            <input type="radio" id="premium" name="plan" value="premium">
+            <label for="premium">Premium</label>
+
+            <label for="newCountry">Select your country:</label>
+            <select id="newCountry" name="newCountry">
+                <option value="usa">United States</option>
+                <option value="canada">Ukraine</option>
+                <option value="mexico">Germany</option>
+            </select>
+
+            <label for="newBirthdate">Birthdate:</label>
+            <input type="date" id="newBirthdate" name="newBirthdate">
+
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </form>
+    </section>
+
+    <section id="about">
+        <h2>About the Application</h2>
+        <p>Immerse yourself in the captivating world of Sudoku with our user-friendly application. Enjoy the classic number puzzle game with intuitive controls and a sleek interface designed for an optimal gaming experience. Challenge yourself with various difficulty levels, from easy to expert, and track your progress with built-in statistics. The app offers unlimited puzzles generated on-the-fly, ensuring a never-ending supply of brain-teasing challenges. Whether you're a Sudoku novice or a seasoned pro, our app provides a stimulating and relaxing way to sharpen your mind and indulge in the timeless joy of Sudoku</p>
+    </section>
+
+    <section id="download">
+        <h2>How to Download</h2>
+        <p>It's so easy, just follow link to download application it play market </p>
+        <a href="https://link">here</a>
+    </section>
+
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <p>Our application free for everyone! But if you want to help us and solve unique puzzles, see your state you can subscribe for 5$/month</p>
+    </section>
+
+    <section id="about-us">
+        <h2>About Us</h2>
+        <p>Our company pioneers puzzle innovation, crafting diverse and engaging applications, from classic crosswords to challenging Sudoku. With a user-centric approach, we ensure seamless interactions and a constant influx of fresh content, making leisure time an exhilarating puzzle-solving adventure. Join us in the pursuit of intellectual delight and exploration.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>You can contact us in </p>
+        <p><a href="">instagram</a></p>
+        <p><a href="">telegram</a></p>
+    </section>
+
+</main>
+
+<footer>
+    &copy; 2023 Sudoku App. All rights reserved.
+</footer>
+
+</body>
+
+</html>
