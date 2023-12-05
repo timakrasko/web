@@ -70,7 +70,7 @@ label {
 .container {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto; /* центрування контейнера */
+    margin: 0 auto;
 }
 
 .sidebar {
@@ -83,7 +83,7 @@ label {
     float: left;
 }
 
-/* Медіазапит для екранів менше 600px */
+
 @media (max-width: 600px) {
     .sidebar, .main-content {
         width: 100%;
@@ -91,30 +91,24 @@ label {
     }
 }
 
-/* Медіазапит для екранів від 601px до 767px */
 @media (min-width: 601px) and (max-width: 767px) {
     .sidebar {
-        width: 100%; /* Бокова панель на всю ширину екрану */
+        width: 100%;
         float: none;
     }
 }
 
-/* Медіазапит для екранів від 768px до 991px */
 @media (min-width: 768px) and (max-width: 991px) {
     .sidebar {
-        width: 30%; /* Повернення ширини бокової панелі для середніх екранів */
+        width: 30%;
         float: left;
     }
 }
 
-/* Медіазапит для екранів від 992px до 1199px */
 @media (min-width: 992px) and (max-width: 1199px) {
-    /* Зміни для середніх екранів */
 }
 
-/* Медіазапит для екранів 1200px і більше */
 @media (min-width: 1200px) {
-    /* Зміни для широких екранів */
 }
 
 input,
